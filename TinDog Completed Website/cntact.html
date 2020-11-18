@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang = 'en'>
+	<head>
+		<meta charset="UTF-8">
+		<meta name = "viewport" content="width-device-width, initial-scale=1.0">
+		<title>Contact</title>
+		<link rel = "stylesheet"
+		href = "http://cdjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+		<link rel = "stylesheet"
+		href = "http://cdjs.cloudflare/ajax/libs/font-awesome/5.11.2/css/all.css"
+		integrity = "sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdFgVK/Kvc" crossorigin="annonymous" />  <!--TO USE THE LOGOS-->
+
+		<link rel = "stylesheet" href = "CSS/styles.css">  <!--link to stylesheet-->
+
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet"> <!--Fonts--->
+
+		<script src="https://kit.fontawesome.com/d2d4b286bd.js" crossorigin="anonymous"></script>  <!--Icons-->
+	</head>
+	<body>
+
+		
+
+
+
+		
+
+        <!-----------------------------------------------CONTACT US---------------------------------------------------------------------------->
+
+        <section class="contact-section">
+            <div class="contact-container">
+                <h2>Connect with Me</h2>
+                <p>Send me an email!</p>
+                <div class="contact-form">
+
+
+                    <div>
+                        <i class="fa fa-map-marker"></i><span class = "from-info">123, Kon-Kon Centre, Oldtown Road.</span><br>
+                        <i class="fa fa-phone"></i><span class = "from-info">Phone No. +91 1234567890</span><br>
+                        <i class="fa fa-envelope"></i><span class = "from-info">Only4Pets.com</span>
+                    </div>
+
+                    <div class = "form" method = "post" action = "contact-form-handler.php">
+                        <form>
+                            <input type="text" name = "name" class = "form-control" placeholder="Name*" required>
+                            <!-- <input type="text" name = "lname" class = "form-control" placeholder="Last Name*" required> -->
+                            <input type="email" name = "email" placeholder="Email*" class = "form-control" required>
+                            <input type="text"  name = "subject" class = "form-control" placeholder="Subject of the Message*" required> 
+                            <textarea name="message" class = "form-control" placeholder="Message*" rows="5" ></textarea>
+                            <input type = "submit" name = "send" class="form-control submit" value="SEND MESSAGE" >
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+		
+
+
+
+
+
+		<!-----------------------------------------------------------FOOTER------------------------------------------------------------------>
+
+		<footer class = "footer">
+			
+			<a href="mailto: ritwik.srivastava.2000@gmail.com" class = "footer_link">Only4Pets.com</a>     <!---email the creator-->
+			<ul class = "socialList">
+				<!--<li class = "socialList_item">
+					<a class = "socialList_link" href="http://codepen.io" target="_blank"></a>
+				</li>-->
+				<li class = "socialList_item">
+					<a class = "socialList_link" href="http://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+				</li>
+				<li class = "socialList_item">
+					<a class = "socialList_link" href="http://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+				</li>
+				<li class = "socialList_item">
+					<a class = "socialList_link" href="http://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+				</li>
+			</ul>
+		</footer>
+
+
+		<script src="JavaScript/index.js"></script>
+
+
+	</body>
+</html>
